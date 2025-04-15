@@ -1,11 +1,11 @@
 # Basic Tauri + Vue 3 Project
 - There are two pages: Home and Search
-Home Page
+#### Home Page
 - A simple form that takes a name input
 - A button that triggers a call to the Rust backend
 - Display area for the response from the backend
 - Theme toggle switcher
-Search Page
+#### Search Page
 - The component performs a search through an array of names stored in a separate Pinia store
 - Search results are displayed in real-time. If no matches are found, the message "No results found." is shown
 - Clear input button: A cross (×) appears when the input field contains one or more characters, allowing users to clear the input
